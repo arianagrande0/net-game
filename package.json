@@ -1,7 +1,7 @@
 {
-  "name": "vxr",
+  "name": "net-game",
   "version": "1.1.0",
-  "description": "My little project",
+  "description": "Net Game is an amazing project",
   "private": true,
   "license": "MIT"
 }
