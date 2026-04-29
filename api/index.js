@@ -18,11 +18,11 @@ const HOP_BY_HOP_HEADERS = new Set([
   "x-forwarded-port",
 ]);
 
-const BASE_URL = (process.env.MY_D || "").replace(/\/$/, "");
+const BASE_URL = (process.env.DOMAIN || "").replace(/\/$/, "");
 
 export default async function handler(request) {
   if (!BASE_URL) {
-    return new Response("Misconfigured: MY_D is not set", { status: 500 });
+    return new Response("Misconfigured: DOMAIN is not set", { status: 500 });
   }
 
   try {
