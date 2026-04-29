@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "name": "vxr",
+  "name": "net-game",
   "functions": {
     "api/index.js": {
       "memory": 128,
